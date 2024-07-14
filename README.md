@@ -17,7 +17,7 @@ edad = 31
 val nombre: String = "Juan"
 ```
 
-######Nombre de la variable
+###### Nombre de la variable
 
 - Es el identificador  que se utiliza para referirse a la variable en el codigo. Se debe seguir las reglas de nomenclatura de Kotlin, que son similares a las de otros lenguajes como Java
 
@@ -49,14 +49,13 @@ Manejo de nulos o tambien conocido manejo de valores nulos o nullable handling e
 ###### Tipos Nullable 
 - En Kotlin, todos los tipos de datos no son nulos por defecto. Sin embargo, puedes declarar un tipo de datos como nullable añadiendo un "?" al final del tipo (tipo?). Por ejemplo, "String?" es un tipo que puede contener una cadena o ser "null".
 
-######Acceso seguro (Safe Calls)
+###### Acceso seguro (Safe Calls)
 - Cuando trabajas con tipos nullable, Kotlin proporciona una sintaxis segura para acceder a sus propiedades o llamar métodos. Por ejemplo:
 
-````
-val cadena: String? = null
-val longitud: Int? = cadena?.length
-
+``` val cadena: String? = null
+val longitud: Int? = cadena?.length 
 ```
+
 ###### Operador Elvis ("Elvis Operator")
 - Este operador ("?"),  se usa para proporcionar un valor predeterminado en caso de que una expresión nullable sea null:
 
